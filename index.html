@@ -4,7 +4,13 @@
 
 <script>
   function raditsaturu(){
-    document.getElementById(radamaisSaturs).style.display = 
+    document.getElementById("radamaisSaturs").style.display = "block"
+    document. getElementById("Rādīt pogu").style.display = "none"
+
+  }
+  function pasleptsaturu() {
+    document.getElementById("radamaisSaturs").style.display="none" 
+    document.getElementById("Rādīt pogu").style.display="block"
   }
 </script>
 
@@ -105,12 +111,12 @@ body {
 
 
 <div class="col">
-<div class="p-3"> <h1 class="text-center">sigma toilet</h1>
-  skibid sigma toilet
+<div class="p-3"> <h1 class="text-center">Poga</h1>
+  Uzzini vairāk par skibidi toolet
  
   <button id="rādīt pogu" onclick="raditsaturu()">rādīt vairāk</button>
   <div id=radamaisSaturs>
-    skibidi sigma toilet landlords
+    Skibidi toilets are fun
     <button onclick="pasleptsaturu()">Less</button>
     </div>
 
